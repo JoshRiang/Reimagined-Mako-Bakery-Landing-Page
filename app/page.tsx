@@ -111,7 +111,6 @@ export default function Home() {
         </div>
 
         <div className="relative z-20 text-center text-white px-6">
-          {/* Efek glow putih di balik teks desktop version untuk memberikan kontras */}
           <div className="hidden md:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] max-w-4xl h-[120%] bg-white/60 blur-[100px] rounded-full -z-10 pointer-events-none"></div>
 
           {/* <h3 className="text-xl text- font-black uppercase tracking-[0.6em] mb-6 animate-in fade-in slide-in-from-bottom duration-700">Premium Japanese Craftsmanship</h3> */}
@@ -167,10 +166,8 @@ export default function Home() {
       {/* Signature Collection */}
       <section className="py-32 bg-[#822238] text-white relative overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-[0.04] pointer-events-none select-none flex flex-col justify-between items-center">
-          {/* Membuat 8-10 baris untuk memenuhi tinggi section secara merata */}
           {[...Array(10)].map((_, rowIndex) => (
             <div key={rowIndex} className={`flex whitespace-nowrap leading-none`}>
-              {/* Mengulang teks "MAKO" cukup banyak agar tidak ada celah saat animasi loop */}
               {[...Array(20)].map((_, i) => (
                 <span key={i} className="text-[160px] me-12 font-black">
                   MAKO

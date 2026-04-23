@@ -36,7 +36,6 @@ export default function InstagramFeed() {
             <UGCItem key={idx} item={item} />
           ))}
         </div>
-        {/* Layer duplikat untuk seamless loop */}
         <div className="absolute top-0 flex animate-marquee2 whitespace-nowrap py-4 group-hover:pause">
           {[...UGC_DATA, ...UGC_DATA].map((item, idx) => (
             <UGCItem key={idx} item={item} />
