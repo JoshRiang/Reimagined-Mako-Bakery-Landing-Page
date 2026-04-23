@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🥐 Mako Cake & Bakery - Landing Page Redesign
 
-## Getting Started
+Proyek ini adalah *redesign* untuk landing page **Mako Cake & Bakery**. Fokus utama dari pengembangan ini adalah menciptakan pengalaman **"Visual Appetizer"** yang memadukan estetika minimalis Jepang dengan fungsionalitas modern, dan membungkus cerita sosial dari pengalaman orang-orang di Mako.
+<br>
+Proyek ini juga merupakan tugas Case Study modul 9 dari mata kuliah Sistem Basis Data (SBD) di semester 4.
+<br>
+Asset dan tema diambil dari website asli www.makobakery.com, dengan beberapa asset merupakan AI content generated.
+---
 
-First, run the development server:
+## 🎨 Identitas Visual
 
-```bash
+Desain ini mempertahankan palet warna asli Mako untuk menjaga kepercayaan pelanggan, namun dengan penerapan *whitespace* yang lebih luas untuk kesan lebih premium.
+
+| Elemen | Hex Code | Deskripsi |
+| :--- | :--- | :--- |
+| **Primary Red** | `#822238` | Warna utama untuk branding dan teks judul. |
+| **Gold/Brown** | `#917333` | Digunakan untuk aksen, ikon, dan detail tipografi. |
+| **Background** | `#FFFFFF` | Memberikan kesan bersih, higienis, dan modern. |
+| **Hover State** | `#7F1B33` | Warna interaktif untuk elemen tombol dan link. |
+
+---
+
+## ✨ Fitur Utama
+
+### 1. Hero Section "Soft as Cloud"
+Visual utama yang menonjolkan kelembutan produk *signature* Mako. Menggunakan rasio **16:9** untuk desktop dengan tata letak yang bersih dan teks terpusat sebagai *focal point*.
+
+### 2. Signature Collection (Full Background Marquee)
+Bagian ini menampilkan koleksi produk unggulan (Floss Roll, Rich Chocolate Cake, dll) dengan latar belakang teks "MAKO".
+* **Modern Typography:** Menggunakan font Sans-Serif berbobot *black* dengan *opacity* rendah (4%) untuk tekstur visual.
+
+### 3. Categorical Navigation
+Penyusunan kategori produk yang lebih terstruktur:
+* **Soft Breads** | **Whole Cakes** | **Slice Cakes**
+* **Danish Pastry** | **Dry Cookies** | **Gift Sets**
+
+### 4. Mako Experience (UGC Feed)
+Integrasi *User Generated Content* (UGC) otomatis dari Instagram dan TikTok menggunakan sistem **Infinite Horizontal Marquee**. Pengunjung dapat melihat ulasan jujur dari pelanggan secara dinamis.
+
+### 5. Interactive Store Locator
+Peta interaktif yang menunjukkan 80+ lokasi Mako Bakery di Depok menggunakan integrasi Google My Maps.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Framework:** Next.js (App Router)
+* **Styling:** Tailwind CSS
+* **Assets:** Custom High-Resolution Photography
+
+---
+
+## 🚀 Instalasi dan Penggunaan
+```md
+git clone https://github.com/JoshRiang/Reimagined-Mako-Bakery-Landing-Page.git
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contributor
+1. Joshua Richardo Riangkamang (2406361946) - Computer Engineering Student at Universitas Indonesia
